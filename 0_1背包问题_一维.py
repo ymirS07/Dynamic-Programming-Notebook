@@ -12,3 +12,5 @@ for i in range(n):
         else:
             dp[j] = dp[j]
 print(dp[package_size])
+
+# 用每个物品依次遍历DP数组，所以当前「J」就是获得了上次的「记忆」
